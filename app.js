@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const path = require('path')
 //database
-const sequelize = require('./helper/database')
+const sequelize = require('./data/database')
 
 //Routes
 const expenseRoutes = require('./routes/expenseRoute')
